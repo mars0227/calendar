@@ -16,7 +16,7 @@ const Header = ({ day }) => {
     return (
         <div className="header">
             <MonthSelect dir="left"/>
-            {day.getFullYear()}年{day.getMonth()}月
+            {day.getFullYear()}年{day.getMonth() + 1}月
             <MonthSelect dir="right"/>
         </div>
     )
