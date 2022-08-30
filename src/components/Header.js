@@ -1,7 +1,6 @@
 import ChevronLeft from "../statics/chevron-left.svg";
 import ChevronRight from "../statics/chevron-right.svg";
 
-
 const MonthSelect = ({ dir }) => {
     return (
         <div className="month-select middle">
